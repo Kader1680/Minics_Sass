@@ -1,0 +1,44 @@
+@import url("../scss/_button.scss");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #d7b236;
+  border: 0;
+  padding: 10px 35px;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: #3a4468;
+  color: white;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+nav h2 {
+  font-size: 30px;
+}
+
+nav .list ul {
+  list-style: none;
+}
+
+nav .list ul li {
+  display: inline-block;
+  margin: 0px 25px;
+}
+
+button {
+}
