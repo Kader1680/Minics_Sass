@@ -19,6 +19,7 @@ body {
 }
 
 nav {
+  width: 100%;
   background-color: #3a4468;
   color: white;
   justify-content: space-between;
@@ -45,6 +46,7 @@ nav .list ul li:hover {
 }
 
 .publication {
+  width: 100%;
   background-color: #f7f7f7;
   display: flex;
   padding-top: 1rem;
@@ -68,4 +70,27 @@ nav .list ul li:hover {
 .publication .b-left button {
   font-size: 23px;
   margin-left: 0px;
+}
+
+.publication img {
+  width: 33.33333%;
+  margin-top: 8px;
+}
+
+.product {
+  width: calc($width / 2);
+  margin: 50px 50px;
+  display: grid;
+  grid-template-columns: 55% 55% 55%;
+}
+
+.product .content {
+  padding: 50px 10px;
+  background-color: #f7f7f7;
+  border: 1px solid #535252;
+  width: 12.5%;
+}
+
+.product .content img {
+  width: 33.33333%;
 }
