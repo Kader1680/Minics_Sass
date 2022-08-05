@@ -1,0 +1,23 @@
+.publication{
+    background-color: $t-color;
+    
+    .b-left{
+        padding: 10px 20px;
+        h2{
+            margin: 10px 0px;
+            font-size: $ft-size + 12;
+            
+        }
+        p{
+            margin: 10px 0px;
+            line-height: $line-height;
+            font-size: $ft-size - 4;
+        }
+       button{
+            margin: 10px 0px;
+       }
+    }
+    img{
+        width: 100%;
+    }
+}

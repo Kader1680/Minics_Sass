@@ -1,0 +1,21 @@
+.product{
+    h2{
+        text-align: center;
+    }
+    .row{
+        div{
+            // border: 1px solid;
+            margin: 30px 15px;
+            background-color: $t-color;
+            img{
+                width: 160px;
+                margin: 0px 80px;
+            }
+            h3{}
+            p{}
+            .star{
+                position: absolute;
+            }
+        }
+    }
+}

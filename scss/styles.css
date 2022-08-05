@@ -49,6 +49,47 @@ body {
   nav .bar {
     display: none;
   }
+  .publication {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 60px 60px;
+  }
+  .publication img {
+    width: 25px;
+  }
+  .product {
+    width: 50%;
+  }
+  .product .row {
+    display: grid;
+    grid-template-columns: 80% 80%;
+  }
+  .product .row div {
+    margin: 30px 15px;
+    background-color: rgb(231, 255, 244);
+  }
+  .product .row div img {
+    width: 200px;
+  }
+  .product .row div .star {
+    position: absolute;
+  }
+}
+@media (min-width: 991px) {
+  .product {
+    width: 50%;
+  }
+  .product .row {
+    display: grid;
+    grid-template-columns: 60% 60% 60%;
+  }
+  .product .row div {
+    margin: 30px 15px;
+    background-color: rgb(231, 255, 244);
+  }
+  .product .row div img {
+    width: 200px;
+  }
 }
 button {
   border: none;
@@ -57,4 +98,41 @@ button {
   padding: 7px 30px;
   border-radius: 5px;
   color: gray;
+}
+
+.publication {
+  background-color: rgb(231, 255, 244);
+}
+.publication .b-left {
+  padding: 10px 20px;
+}
+.publication .b-left h2 {
+  margin: 10px 0px;
+  font-size: 32px;
+}
+.publication .b-left p {
+  margin: 10px 0px;
+  line-height: 24px;
+  font-size: 16px;
+}
+.publication .b-left button {
+  margin: 10px 0px;
+}
+.publication img {
+  width: 100%;
+}
+
+.product h2 {
+  text-align: center;
+}
+.product .row div {
+  margin: 30px 15px;
+  background-color: rgb(231, 255, 244);
+}
+.product .row div img {
+  width: 160px;
+  margin: 0px 80px;
+}
+.product .row div .star {
+  position: absolute;
 }/*# sourceMappingURL=styles.css.map */

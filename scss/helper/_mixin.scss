@@ -29,16 +29,60 @@ body{
         }
         .bar{
             display: none;
-            
         }
         
     }
+    .publication{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 60px 60px;
+        img{
+            width: 25px;
+        }
+    }
+    .product{
+        width: calc(100% / 2);
+        .row{
+            display: grid;
+            grid-template-columns: 80% 80%;
+            div{
+                // border: 1px solid;
+                margin: 30px 15px;
+                background-color: $t-color;
+                img{
+                    width: 200px;
+                }
+                h3{}
+                p{}
+                .star{
+                    position: absolute;
+                }
+            }
+        }
+    }
 }
-// @media(min-width:991px){
-//     nav{
-//     }
-// }
-// @media(min-width:1199px){
-//     nav{
-//     }
-// }
+@media(min-width:991px){
+    .product{
+        width: calc(100% / 2);
+        .row{
+            display: grid;
+            grid-template-columns: 60% 60% 60%;
+            div{
+                // border: 1px solid;
+                margin: 30px 15px;
+                background-color: $t-color;
+                img{
+                    width: 200px;
+                }
+                h3{}
+                p{}
+                .star{}
+            }
+        }
+    }
+    
+}
+@media(min-width:1199px){
+    nav{
+    }
+}
