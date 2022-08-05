@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+@media(max-width:767px){
+    nav{
+        .list{
+            display: none;
+        }
+        i{
+            display: block;
+        }
+    }
+}
+@media(min-width:768px){
+    nav{
+        .list{
+            display: block;
+            ul{
+                list-style: none;
+                li{
+                    display: inline-block;
+                }
+            }
+        }
+        .bar{
+            display: none;
+            
+        }
+        
+    }
+}
+// @media(min-width:991px){
+//     nav{
+//     }
+// }
+// @media(min-width:1199px){
+//     nav{
+//     }
+// }

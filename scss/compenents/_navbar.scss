@@ -1,0 +1,21 @@
+nav{
+    width: 100%;
+    background-color: $f-color;
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    justify-content: space-around;
+    i{
+        color: $txt-clr;
+        font-size: $ft-size + 6;
+    }
+    ul{
+        li{
+            margin: 0px 10px;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: $txt-clr;
+    }
+}
