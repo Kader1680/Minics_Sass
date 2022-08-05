@@ -45,7 +45,7 @@ body{
         .row{
             display: grid;
             grid-template-columns: 80% 80%;
-            div{
+            .content{
                 // border: 1px solid;
                 margin: 30px 15px;
                 background-color: $t-color;
@@ -67,7 +67,7 @@ body{
         .row{
             display: grid;
             grid-template-columns: 60% 60% 60%;
-            div{
+            .content{
                 // border: 1px solid;
                 margin: 30px 15px;
                 background-color: $t-color;

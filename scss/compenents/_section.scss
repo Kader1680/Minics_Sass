@@ -3,7 +3,7 @@
         text-align: center;
     }
     .row{
-        div{
+        .content{
             // border: 1px solid;
             margin: 30px 15px;
             background-color: $t-color;
@@ -11,7 +11,9 @@
                 width: 160px;
                 margin: 0px 80px;
             }
-            h3{}
+            h3{
+                margin: 23px 0px;
+            }
             p{}
             .star{
                 position: absolute;

@@ -64,14 +64,14 @@ body {
     display: grid;
     grid-template-columns: 80% 80%;
   }
-  .product .row div {
+  .product .row .content {
     margin: 30px 15px;
     background-color: rgb(231, 255, 244);
   }
-  .product .row div img {
+  .product .row .content img {
     width: 200px;
   }
-  .product .row div .star {
+  .product .row .content .star {
     position: absolute;
   }
 }
@@ -83,11 +83,11 @@ body {
     display: grid;
     grid-template-columns: 60% 60% 60%;
   }
-  .product .row div {
+  .product .row .content {
     margin: 30px 15px;
     background-color: rgb(231, 255, 244);
   }
-  .product .row div img {
+  .product .row .content img {
     width: 200px;
   }
 }
@@ -125,14 +125,17 @@ button {
 .product h2 {
   text-align: center;
 }
-.product .row div {
+.product .row .content {
   margin: 30px 15px;
   background-color: rgb(231, 255, 244);
 }
-.product .row div img {
+.product .row .content img {
   width: 160px;
   margin: 0px 80px;
 }
-.product .row div .star {
+.product .row .content h3 {
+  margin: 23px 0px;
+}
+.product .row .content .star {
   position: absolute;
 }/*# sourceMappingURL=styles.css.map */
