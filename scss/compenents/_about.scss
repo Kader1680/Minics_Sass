@@ -1,0 +1,25 @@
+.about{
+    background-color: $f-color;
+    .text{
+        padding: 15px;
+
+        h2{
+            margin: 10px 0px;
+            font-size: $ft-size + 12;
+        }
+        p{
+            font-size: $ft-size - 4;
+            margin: 10px 0px;
+
+        }
+        button{
+            margin: 10px 0px;
+            @import url('./_button.scss');
+        }
+    }
+    .image{
+        img{
+            width: 100%;
+        }
+    }
+}

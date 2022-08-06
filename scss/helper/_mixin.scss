@@ -15,6 +15,13 @@ body{
             display: block;
         }
     }
+    // .about{
+    //     .image{
+    //         // img{
+    //         //     width: 25%;
+    //         // }
+    //     }
+    // }
 }
 @media(min-width:768px){
     nav{
@@ -46,18 +53,29 @@ body{
             display: grid;
             grid-template-columns: 80% 80%;
             .content{
-                // border: 1px solid;
                 margin: 30px 15px;
                 background-color: $t-color;
                 img{
                     width: 200px;
                 }
-                h3{}
-                p{}
                 .star{
                     position: absolute;
                 }
             }
+        }
+    }
+    .about{
+        display: flex;
+        .text{
+            width: 19rem;
+            margin: 10px 0px;
+        }
+        .image{
+            
+            padding: 60px 0px;
+           img{
+            width: 270px;
+           } 
         }
     }
 }
@@ -68,21 +86,20 @@ body{
             display: grid;
             grid-template-columns: 60% 60% 60%;
             .content{
-                // border: 1px solid;
                 margin: 30px 15px;
                 background-color: $t-color;
                 img{
                     width: 200px;
                 }
-                h3{}
-                p{}
-                .star{}
+                // .star{
+
+                // }
             }
         }
     }
     
 }
 @media(min-width:1199px){
-    nav{
-    }
+    // nav{
+    // }
 }

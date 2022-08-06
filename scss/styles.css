@@ -74,6 +74,9 @@ body {
   .product .row .content .star {
     position: absolute;
   }
+  .about {
+    display: flex;
+  }
 }
 @media (min-width: 991px) {
   .product {
@@ -138,4 +141,26 @@ button {
 }
 .product .row .content .star {
   position: absolute;
+}
+
+.about {
+  background-color: rgb(55, 180, 247);
+}
+.about .text {
+  padding: 15px;
+}
+.about .text h2 {
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.about .text p {
+  font-size: 16px;
+  margin: 10px 0px;
+}
+.about .text button {
+  margin: 10px 0px;
+  @import url("./_button.scss");
+}
+.about .image img {
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */
