@@ -77,6 +77,16 @@ body {
   .about {
     display: flex;
   }
+  .about .text {
+    width: 19rem;
+    margin: 10px 0px;
+  }
+  .about .image {
+    padding: 60px 0px;
+  }
+  .about .image img {
+    width: 270px;
+  }
 }
 @media (min-width: 991px) {
   .product {
@@ -151,7 +161,7 @@ button {
 }
 .about .text h2 {
   margin: 10px 0px;
-  font-size: 20px;
+  font-size: 32px;
 }
 .about .text p {
   font-size: 16px;
@@ -163,4 +173,8 @@ button {
 }
 .about .image img {
   width: 100%;
+}
+
+.banding .row .box img {
+  width: 15px;
 }/*# sourceMappingURL=styles.css.map */
