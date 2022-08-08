@@ -89,7 +89,8 @@ body {
   }
   .row {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 50% 30%;
+    margin-left: 1rem;
   }
   .row .box img {
     width: 15px;
@@ -109,6 +110,16 @@ body {
   }
   .product .row .content img {
     width: 200px;
+  }
+  .product .row {
+    display: grid;
+    grid-template-columns: 60% 60% 60%;
+  }
+}
+@media (min-width: 1199px) {
+  .product .row {
+    display: grid;
+    grid-template-columns: 60% 60% 60%;
   }
 }
 button {

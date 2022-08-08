@@ -66,14 +66,15 @@ body{
         .image{
             
             padding: 60px 0px;
-           img{
+            img{
             width: 270px;
-           } 
+            } 
         }
     }
     .row{
         display: grid;
-        grid-template-columns: 30% 30% 30%;
+        grid-template-columns: 50% 30%;
+        margin-left: 1rem;
         .box{
             // width: 12rem;
             // border: 1px solid;
@@ -101,9 +102,19 @@ body{
             }
         }
     }
+    .product{
+        .row{
+            display: grid;
+            grid-template-columns: 60% 60% 60%;
+        }
+    }
     
 }
 @media(min-width:1199px){
-    // nav{
-    // }
+    .product{
+        .row{
+            display: grid;
+            grid-template-columns: 60% 60% 60%;
+        }
+    }
 }
