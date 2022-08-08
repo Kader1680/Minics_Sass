@@ -5,6 +5,7 @@ nav {
   align-items: center;
   padding: 20px 0px;
   justify-content: space-around;
+  color: white;
 }
 nav i {
   color: rgb(255, 255, 255);
@@ -218,23 +219,26 @@ footer {
   color: white;
   padding: 20px 20px;
 }
-footer .row .field {
+footer .row {
   text-align: center;
   margin: 40px 30px;
 }
-footer .row .field .refernce i {
+footer .row .field h2 {
+  margin: 20px 0px;
+}
+footer .row .refernce i {
   margin: 10px 5px;
 }
-footer .row .field .refernce span {
+footer .row .refernce span {
   margin-left: 10px;
 }
-footer .row .field ul {
+footer .row ul {
   list-style: none;
 }
-footer .row .field ul li a {
+footer .row ul li a {
   text-decoration: none;
   color: white;
 }
-footer .row .field button {
+footer .row button {
   margin: 10px 0px;
 }/*# sourceMappingURL=styles.css.map */
