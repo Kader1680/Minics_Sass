@@ -239,6 +239,36 @@ footer .row ul li a {
   text-decoration: none;
   color: white;
 }
+footer .row input {
+  height: 2.5rem;
+  width: 100%;
+  border: none;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  padding: 0px 21px;
+}
 footer .row button {
+  margin: 10px 0px;
+}
+footer .row .social_media {
+  margin-left: 0px 10px;
+  font-size: 25px;
+}
+footer .row .social_media .iconify {
+  margin: 10px 10px;
+}
+footer .row hr {
+  width: 90%;
+  color: #fe7979;
+  text-align: center;
+  margin: 0px 10px;
+}
+footer .row div {
+  text-align: center;
+}
+footer .row div a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
   margin: 10px 0px;
 }/*# sourceMappingURL=styles.css.map */

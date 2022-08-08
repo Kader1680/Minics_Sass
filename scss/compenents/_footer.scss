@@ -30,10 +30,38 @@ footer{
                 }
             }
             input{
-
+                height: 2.5rem;
+                width: 100%;
+                border: none;
+                margin-bottom: 1rem;
+                border-radius: 5px;
+                padding: 0px 21px;
             }
             button{
                 margin: 10px 0px;
+            }
+            .social_media{
+                margin-left: 0px 10px;
+                font-size: $ft-size + 5;
+                .iconify{
+                    margin: 10px 10px;
+                    
+                }
+            }
+            hr{
+                width: 90%;
+                color: $s-color;
+                text-align: center;
+                margin: 0px 10px;
+            }
+            div{
+                text-align: center;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: $ft-size;
+                    margin: 10px 0px;
+                }
             }
         }
     }
