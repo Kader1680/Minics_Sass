@@ -216,9 +216,14 @@ footer {
   width: 100%;
   background-color: #1f4172;
   color: white;
+  padding: 20px 20px;
+}
+footer .row .field {
+  text-align: center;
+  margin: 40px 30px;
 }
 footer .row .field .refernce i {
-  margin: 0px 5px;
+  margin: 10px 5px;
 }
 footer .row .field .refernce span {
   margin-left: 10px;
@@ -229,4 +234,7 @@ footer .row .field ul {
 footer .row .field ul li a {
   text-decoration: none;
   color: white;
+}
+footer .row .field button {
+  margin: 10px 0px;
 }/*# sourceMappingURL=styles.css.map */

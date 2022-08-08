@@ -2,12 +2,18 @@ footer{
     width: 100%;
     background-color: $f-color;
     color: white;
+    padding: 20px 20px;
     .row{
         .field{
-            
+            h2{
+                margin: 20px 0px;
+}
+            }
+            text-align: center;
+            margin: 40px 30px;
             .refernce{
                 i{
-                    margin: 0px 5px;
+                    margin: 10px 5px;
                 }
                 span{
                     margin-left: 10px;
@@ -22,6 +28,12 @@ footer{
                         color: white;
                     }
                 }
+            }
+            input{
+
+            }
+            button{
+                margin: 10px 0px;
             }
         }
     }
