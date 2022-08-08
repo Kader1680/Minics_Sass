@@ -1,0 +1,28 @@
+footer{
+    width: 100%;
+    background-color: $f-color;
+    color: white;
+    .row{
+        .field{
+            
+            .refernce{
+                i{
+                    margin: 0px 5px;
+                }
+                span{
+                    margin-left: 10px;
+                }
+            }
+
+            ul{
+                list-style: none;
+                li{
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
