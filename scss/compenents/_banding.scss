@@ -1,8 +1,20 @@
 .banding{
+    text-align: center;
     .row{
         .box{
+            width: 21rem;
+            margin: 43px 17px;
+            box-shadow: 0px 0px 14px 0px #bababa;
+            padding: 25px 15px;
+            h3{
+                font-size: $ft-size;
+            }
+            p{
+                font-size: $ft-size - 4;
+                line-height: $line-height;
+            }
             img{
-                width: 15px;
+                width: 40px;
             }
         }
     }
