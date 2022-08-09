@@ -15,6 +15,26 @@ body{
             display: block;
         }
     }
+    .product{
+        // width: calc(100% / 2);
+        .row{
+            // display: grid;
+            // grid-template-columns: 80% 80%;
+            .content{
+                // margin: 30px 15px;
+                // background-color: $t-color;
+                img{
+                    // width: 200px;
+                }
+                .star{
+                    display: flex;
+                    justify-content: end;
+                    margin: -23px 1rem;
+                }
+                
+            }
+        }
+    }
 }
 @media(min-width:768px){
     nav{
@@ -52,8 +72,11 @@ body{
                     width: 200px;
                 }
                 .star{
-                    position: absolute;
+                    display: flex;
+                    justify-content: end;
+                    margin: -23px 1rem;
                 }
+                
             }
         }
     }

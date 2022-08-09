@@ -36,6 +36,11 @@ body {
   nav i {
     display: block;
   }
+  .product .row .content .star {
+    display: flex;
+    justify-content: end;
+    margin: -23px 1rem;
+  }
 }
 @media (min-width: 768px) {
   nav .list {
@@ -73,7 +78,9 @@ body {
     width: 200px;
   }
   .product .row .content .star {
-    position: absolute;
+    display: flex;
+    justify-content: end;
+    margin: -23px 1rem;
   }
   .about {
     display: flex;
@@ -155,10 +162,13 @@ button {
 
 .product h2 {
   text-align: center;
+  margin-top: 2rem;
 }
 .product .row .content {
-  margin: 30px 15px;
-  background-color: #fdf0f0;
+  margin: 25px 30px;
+  background-color: #dedede;
+  border-radius: 5px;
+  padding: 42px 20px;
 }
 .product .row .content img {
   width: 160px;
@@ -167,10 +177,6 @@ button {
 .product .row .content h3 {
   margin: 23px 0px;
 }
-.product .row .content .star {
-  position: absolute;
-}
-
 .about {
   background-color: #1f4172;
 }
@@ -195,6 +201,8 @@ button {
 
 .banding {
   text-align: center;
+  margin: auto;
+  max-width: 600px;
 }
 .banding .row .box {
   width: 21rem;

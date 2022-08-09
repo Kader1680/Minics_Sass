@@ -1,12 +1,15 @@
 .product{
     h2{
         text-align: center;
+        margin-top: 2rem;
     }
+    
     .row{
         .content{
-            // border: 1px solid;
-            margin: 30px 15px;
-            background-color: $t-color;
+            margin: 25px 30px;
+            background-color: #dedede;
+            border-radius: 5px;
+            padding: 42px 20px;
             img{
                 width: 160px;
                 margin: 0px 80px;
@@ -16,7 +19,6 @@
             }
             p{}
             .star{
-                position: absolute;
             }
         }
     }
