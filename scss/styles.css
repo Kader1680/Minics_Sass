@@ -64,7 +64,7 @@ body {
     width: 25px;
   }
   .product {
-    width: 50%;
+    width: 61%;
   }
   .product .row {
     display: grid;
@@ -136,6 +136,10 @@ button {
   font-size: 16px;
   padding: 7px 30px;
   border-radius: 5px;
+}
+
+button:hover {
+  background-color: gray;
 }
 
 .publication {

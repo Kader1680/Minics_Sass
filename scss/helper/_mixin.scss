@@ -61,7 +61,8 @@ body{
         }
     }
     .product{
-        width: calc(100% / 2);
+        // width: calc(100% / 2);
+        width: 61%;
         .row{
             display: grid;
             grid-template-columns: 80% 80%;
