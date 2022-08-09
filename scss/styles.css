@@ -170,6 +170,10 @@ button {
   border-radius: 5px;
   padding: 42px 20px;
 }
+.product .row .content .iconify {
+  color: #fe7979;
+  font-size: 30px;
+}
 .product .row .content img {
   width: 160px;
   margin: 0px 80px;
@@ -252,8 +256,8 @@ footer .row input {
   width: 100%;
   border: none;
   margin-bottom: 1rem;
-  border-radius: 5px;
-  padding: 0px 21px;
+  border-radius: 4px;
+  padding: 0px 20px;
 }
 footer .row button {
   margin: 10px 0px;

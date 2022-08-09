@@ -5,11 +5,16 @@
     }
     
     .row{
+
         .content{
             margin: 25px 30px;
             background-color: #dedede;
             border-radius: 5px;
             padding: 42px 20px;
+            .iconify{
+                color: $s-color;
+                font-size: $ft-size + 10;
+            }
             img{
                 width: 160px;
                 margin: 0px 80px;
