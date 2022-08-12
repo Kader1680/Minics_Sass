@@ -83,27 +83,31 @@ body{
     }
     .about{
         display: flex;
+        color: $t-color;
         .text{
-            width: 19rem;
+            width: 27rem;
             margin: 10px 0px;
         }
         .image{
             
             padding: 60px 0px;
+            width: 26rem;
+            margin-left: 100px;
             img{
             width: 270px;
             } 
         }
     }
-    .row{
-        display: grid;
-        grid-template-columns: 50% 30%;
-        margin-left: 1rem;
-        .box{
-            // width: 12rem;
-            // border: 1px solid;
-            img{
-                width: 15px;
+    .banding{
+        .row{
+            display: grid;
+            grid-template-columns: 50% 30%;
+            margin-left: 1rem;
+            .box:nth-child(3){
+                width: 550px;
+                img{
+                    width: 15px;
+                }
             }
         }
     }
