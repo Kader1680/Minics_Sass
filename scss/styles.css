@@ -103,6 +103,12 @@ body {
     grid-template-columns: 50% 30%;
     margin-left: 1rem;
   }
+  .banding .row .box:nth-child(1) {
+    width: 16rem;
+  }
+  .banding .row .box:nth-child(2) {
+    width: 16rem;
+  }
   .banding .row .box:nth-child(3) {
     width: 550px;
   }
@@ -125,9 +131,46 @@ body {
   .product .row .content img {
     width: 200px;
   }
+  .about {
+    padding: 10px 9rem;
+  }
+  .about .text {
+    margin: 2rem 0px;
+  }
+  .about .image img {
+    width: 130%;
+    margin-left: -2rem;
+    margin-top: 4rem;
+  }
+  .about .text {
+    margin-top: 5rem;
+  }
   .product .row {
     display: grid;
     grid-template-columns: 60% 60% 60%;
+  }
+  .banding {
+    padding: 3rem 0px;
+  }
+  .banding .row {
+    display: inline-flex;
+    margin-left: -8rem;
+  }
+  .banding .row .box {
+    width: 100%;
+  }
+  .banding .row .box:nth-child(3) {
+    width: 16rem;
+  }
+  .banding .row .box:nth-child(3) img {
+    width: 12%;
+  }
+  footer .row {
+    display: grid;
+    grid-template-columns: 45% 40%;
+  }
+  footer .row .field {
+    margin-bottom: 10px;
   }
 }
 @media (min-width: 1199px) {

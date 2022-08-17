@@ -101,6 +101,12 @@ body{
             display: grid;
             grid-template-columns: 50% 30%;
             margin-left: 1rem;
+            .box:nth-child(1){
+                width: 16rem;
+            }
+            .box:nth-child(2){
+                width: 16rem;
+            }
             .box:nth-child(3){
                 width: 550px;
                 img{
@@ -122,10 +128,24 @@ body{
                 img{
                     width: 200px;
                 }
-                // .star{
-
-                // }
             }
+        }
+    }
+    .about{
+        padding: 10px 9rem;
+        .text{
+            margin: 2rem 0px;
+        }
+        .image{
+            img{
+                width: 130%;
+                margin-left: -2rem;
+                margin-top: 4rem;
+
+            }
+        }
+        .text{
+            margin-top: 5rem;
         }
     }
     .product{
@@ -134,7 +154,35 @@ body{
             grid-template-columns: 60% 60% 60%;
         }
     }
-    
+    .banding{
+        padding: 3rem 0px;
+        .row{
+            display: inline-flex;
+            margin-left: -8rem;
+            .box{
+                width: 100%;
+            }
+            .box:nth-child(3){
+                width: 16rem;
+                img{
+                    width: 12%;
+                }
+            }
+        }
+    }
+    footer{
+        .row{
+            display: grid;
+            grid-template-columns: 45% 40%;
+            .field{
+                margin-bottom: 10px;
+                .refernce{
+                    
+                }
+
+            }
+        }
+    }
 }
 @media(min-width:1199px){
     .product{
