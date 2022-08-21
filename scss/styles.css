@@ -36,6 +36,9 @@ body {
   nav i {
     display: block;
   }
+  .product {
+    width: 50%;
+  }
   .product .row .content .star {
     display: flex;
     justify-content: end;
@@ -213,12 +216,16 @@ button:hover {
   width: 100%;
 }
 
+.product {
+  background-color: rgb(255, 167, 15);
+}
 .product h2 {
   text-align: center;
   margin-top: 2rem;
 }
 .product .row .content {
-  margin: 25px 30px;
+  width: 50%;
+  margin: 54px auto;
   background-color: #dedede;
   border-radius: 5px;
   padding: 42px 20px;
@@ -228,11 +235,14 @@ button:hover {
   font-size: 30px;
 }
 .product .row .content img {
-  width: 160px;
-  margin: 0px 80px;
+  width: 110px;
+  height: 101px;
 }
 .product .row .content h3 {
   margin: 23px 0px;
+}
+.product .row .content p {
+  color: green;
 }
 .about {
   background-color: #1f4172;
