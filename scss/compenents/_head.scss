@@ -6,6 +6,7 @@
         h2{
             margin: 10px 0px;
             font-size: $ft-size + 12;
+            @include color;
             
         }
         p{
@@ -15,6 +16,7 @@
         }
        button{
             margin: 10px 0px;
+            background-color: red;
        }
     }
     img{

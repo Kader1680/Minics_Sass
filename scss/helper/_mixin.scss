@@ -6,6 +6,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+@mixin color {
+    color: black;
+}
 @media(max-width:767px){
     nav{
         .list{
@@ -16,8 +19,11 @@ body{
         }
     }
     .product{
-        width: calc(100% / 2);
+        // width: calc(100% / 2);
         .row{
+
+            display: grid;
+            grid-template-columns: 50% 50%;
             
             .content{
                 
@@ -63,7 +69,8 @@ body{
         width: 61%;
         .row{
             display: grid;
-            grid-template-columns: 80% 80%;
+            grid-template-columns: 33% 33% 33%;
+            margin-left: 10px;
             .content{
                 margin: 30px 15px;
                 background-color: $t-color;
@@ -151,7 +158,8 @@ body{
     .product{
         .row{
             display: grid;
-            grid-template-columns: 60% 60% 60%;
+            grid-template-columns: 24% 24% 24% 24%;
+            margin-left: 40px;
         }
     }
     .banding{
@@ -187,8 +195,7 @@ body{
 @media(min-width:1199px){
     .product{
         .row{
-            display: grid;
-            grid-template-columns: 60% 60% 60%;
+            
         }
     }
 }

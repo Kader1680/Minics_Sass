@@ -1,6 +1,6 @@
 nav {
   width: 100%;
-  background-color: rgb(255, 88, 4);
+  background-color: #ff5804;
   display: flex;
   align-items: center;
   padding: 20px 0px;
@@ -8,7 +8,7 @@ nav {
   color: white;
 }
 nav i {
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 26px;
 }
 nav ul li {
@@ -16,7 +16,7 @@ nav ul li {
 }
 nav a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 * {
@@ -36,6 +36,7 @@ body {
   nav i {
     display: block;
   }
+
   .product .row {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -59,6 +60,7 @@ body {
   nav .bar {
     display: none;
   }
+
   .publication {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -67,6 +69,7 @@ body {
   .publication img {
     width: 25px;
   }
+
   .product {
     width: 61%;
   }
@@ -87,6 +90,7 @@ body {
     justify-content: end;
     margin: -23px 1rem;
   }
+
   .about {
     display: flex;
     color: #fdf0f0;
@@ -103,6 +107,7 @@ body {
   .about .image img {
     width: 270px;
   }
+
   .banding .row {
     display: grid;
     grid-template-columns: 50% 30%;
@@ -123,7 +128,7 @@ body {
 }
 @media (min-width: 991px) {
   .product {
-    width: 50%;
+    width: calc(100% / 2);
   }
   .product .row {
     display: grid;
@@ -136,6 +141,7 @@ body {
   .product .row .content img {
     width: 200px;
   }
+
   .about {
     padding: 10px 9rem;
   }
@@ -150,11 +156,13 @@ body {
   .about .text {
     margin-top: 5rem;
   }
+
   .product .row {
     display: grid;
     grid-template-columns: 24% 24% 24% 24%;
     margin-left: 40px;
   }
+
   .banding {
     padding: 3rem 0px;
   }
@@ -171,6 +179,7 @@ body {
   .banding .row .box:nth-child(3) img {
     width: 12%;
   }
+
   footer .row {
     display: grid;
     grid-template-columns: 45% 40%;
@@ -181,7 +190,7 @@ body {
 }
 button {
   border: none;
-  background-color: rgb(254, 194, 28);
+  background-color: #fec21c;
   font-size: 16px;
   padding: 7px 30px;
   border-radius: 5px;
@@ -216,7 +225,7 @@ button:hover {
 }
 
 .product {
-  background-color: rgb(255, 167, 15);
+  background-color: #ffa70f;
   width: 100%;
 }
 .product h2 {
@@ -254,27 +263,15 @@ button:hover {
 }
 
 .top {
-  background-color: #fdf0f0;
-  color: rgb(255, 88, 4);
-  position: fixed;
-  box-shadow: 2px 2px 10px 4px rgb(255, 88, 4);
-  top: 33rem;
-  right: -50px;
-  padding: 10px;
-  border-radius: 7px;
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-}
-
-.top.blk {
-  right: 20px;
+  background-color: #ff5804;
+  color: #fdf0f0;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .about {
-  background-color: rgb(255, 88, 4);
+  background-color: #ff5804;
 }
 .about .text {
   padding: 15px;
@@ -319,7 +316,7 @@ button:hover {
 
 footer {
   width: 100%;
-  background-color: rgb(255, 88, 4);
+  background-color: #ff5804;
   color: white;
   padding: 20px 20px;
 }
@@ -363,7 +360,7 @@ footer .row .social_media .iconify {
 }
 footer .row hr {
   width: 90%;
-  color: rgb(254, 194, 28);
+  color: #fec21c;
   text-align: center;
   margin: 0px 10px;
 }
@@ -375,4 +372,4 @@ footer .row div a {
   color: white;
   font-size: 20px;
   margin: 10px 0px;
-}/*# sourceMappingURL=styles.css.map */
+}
