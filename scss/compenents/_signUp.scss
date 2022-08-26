@@ -1,0 +1,30 @@
+
+.sign_up{
+    z-index: 5;
+    width: 70%;
+    background-color: wheat;
+    position: fixed;
+    top: 35%;
+    left: 0%;
+    height: 20rem;
+    border-radius: 4%;
+    margin: 0px 70px;
+    display: none;
+    
+    h4{
+
+    }
+    form{
+        padding: 5px auto;
+        label{
+
+        }
+        input{
+            background-color: red;
+        }
+        button{
+            width: 51%;
+        }
+    }
+}
+

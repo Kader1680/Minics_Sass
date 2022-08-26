@@ -1,11 +1,41 @@
+.bkgrnd_body {
+  background-color: rgba(227, 227, 227, 0.71);
+  width: 100%;
+  position: fixed;
+  height: 47rem;
+  z-index: 5;
+  display: none;
+}
+
 nav {
+  position: fixed;
+  z-index: 4;
   width: 100%;
   background-color: rgb(255, 88, 4);
   display: flex;
   align-items: center;
   padding: 20px 0px;
-  justify-content: space-around;
+  justify-content: space-evenly;
   color: white;
+}
+nav .fa-bars-staggered {
+  margin-left: 4rem;
+}
+nav i:hover {
+  transition: 1s;
+  padding: 4px;
+  border: 1px solid white;
+  color: rgb(255, 88, 4);
+  background-color: white;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
 }
 nav i {
   color: rgb(255, 255, 255);
@@ -17,6 +47,28 @@ nav ul li {
 nav a {
   text-decoration: none;
   color: rgb(255, 255, 255);
+}
+
+.sign_up {
+  z-index: 5;
+  width: 70%;
+  background-color: wheat;
+  position: fixed;
+  top: 35%;
+  left: 0%;
+  height: 20rem;
+  border-radius: 4%;
+  margin: 0px 70px;
+  display: none;
+}
+.sign_up form {
+  padding: 5px auto;
+}
+.sign_up form input {
+  background-color: red;
+}
+.sign_up form button {
+  width: 51%;
 }
 
 * {
@@ -181,7 +233,7 @@ body {
 }
 button {
   border: none;
-  background-color: rgb(254, 194, 28);
+  background-color: rgb(255, 215, 147);
   font-size: 16px;
   padding: 7px 30px;
   border-radius: 5px;
@@ -191,8 +243,18 @@ button:hover {
   background-color: gray;
 }
 
+input {
+  width: 80%;
+  border: none;
+  padding: 3px 12px;
+  outline: none;
+  border-radius: 5px;
+  margin: 6px 0px;
+}
+
 .publication {
   background-color: #fdf0f0;
+  padding-top: 6rem;
 }
 .publication .b-left {
   padding: 10px 20px;
@@ -209,14 +271,14 @@ button:hover {
 }
 .publication .b-left button {
   margin: 10px 0px;
-  background-color: red;
+  background-color: rgb(255, 215, 147);
 }
 .publication img {
   width: 100%;
 }
 
 .product {
-  background-color: rgb(255, 167, 15);
+  background-color: rgb(255, 215, 147);
   width: 100%;
 }
 .product h2 {
@@ -224,6 +286,7 @@ button:hover {
   margin-top: 2rem;
 }
 .product .row .content {
+  box-shadow: 0px 1px 3px 1px rgb(255, 88, 4);
   width: 95%;
   margin: 54px auto;
   background-color: #dedede;
@@ -239,6 +302,15 @@ button:hover {
 .product .row .content img {
   width: 110px;
   height: 101px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.product .row .content img:hover {
+  width: 96px;
+  height: 90px;
 }
 .product .row .content h3 {
   margin: 23px 0px;
@@ -363,7 +435,7 @@ footer .row .social_media .iconify {
 }
 footer .row hr {
   width: 90%;
-  color: rgb(254, 194, 28);
+  color: rgb(255, 215, 147);
   text-align: center;
   margin: 0px 10px;
 }

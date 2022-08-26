@@ -1,11 +1,41 @@
+.bkgrnd_body{
+    background-color: rgb(227 227 227 / 71%);
+    width: 100%;
+    position: fixed;
+    height: 47rem;
+    z-index: 5;
+    display: none;
+}
+
 nav{
+    position: fixed;
+    z-index: 4;
     width: 100%;
     background-color: $f-color;
     display: flex;
     align-items: center;
     padding: 20px 0px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: white;
+    .fa-bars-staggered{
+        margin-left: 4rem;
+    }
+    i:hover{
+        transition: 1s;
+        padding: 4px;
+        border: 1px solid white;
+        color: $f-color;
+        background-color: white;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+}
     i{
         color: $txt-clr;
         font-size: $ft-size + 6;

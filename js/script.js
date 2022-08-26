@@ -17,15 +17,28 @@ window.onscroll = () =>{
 
     // console.log(this.scrollY)
 
-    if (this.scrollY >= 2200) {
+    this.scrollY >= 2200 ? Top.classList.add('blk') : Top.classList.remove('blk')
 
-        Top.classList.add('blk')
-
-    } else {
-        Top.classList.remove('blk')
-        
-    }
 }
 
+// Top.addEventListener('click', ()=>{
+//     window.scrollTo(
+//         top = 0,
+        
+        
+//     )
+// })
 
+// Blog Sign Up
+
+let sign = document.querySelector('.sign_up')
+let sign_block = document.querySelector('.block')
+
+sign.addEventListener('click', ()=>{
+    sign.classList.toggle('block')
+})
+
+
+
+// Onload to Sign up
 

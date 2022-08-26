@@ -1,5 +1,6 @@
 .publication{
     background-color: $t-color;
+    padding-top: 6rem;
     
     .b-left{
         padding: 10px 20px;
@@ -14,10 +15,10 @@
             line-height: $line-height;
             font-size: $ft-size - 4;
         }
-       button{
-            margin: 10px 0px;
-            background-color: red;
-       }
+        button{
+                margin: 10px 0px;
+                background-color: $s-color;
+        }
     }
     img{
         width: 100%;

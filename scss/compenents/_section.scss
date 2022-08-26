@@ -1,5 +1,5 @@
 .product{
-    background-color: rgb(255, 167, 15);
+    background-color: $s-color;
     width: 100%;
     h2{
         text-align: center;
@@ -8,6 +8,7 @@
     
     .row{
         .content{
+            box-shadow: $shadow;
             width: 95%;
             margin: 54px auto;
             background-color: #dedede;
@@ -23,6 +24,15 @@
             img{
                 width: 110px;
                 height: 101px;
+                transition: $transition;
+                -webkit-transition: $transition;
+                -moz-transition: $transition;
+                -ms-transition: $transition;
+                -o-transition: $transition;
+}
+            img:hover{
+                width: $width - 4;
+                height: $width - 10;
             }
             h3{
                 margin: 23px 0px;
