@@ -358,6 +358,7 @@ input {
 .about .text p {
   font-size: 16px;
   margin: 10px 0px;
+  color: black;
 }
 .about .text button {
   margin: 10px 0px;
