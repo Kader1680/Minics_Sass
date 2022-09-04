@@ -277,6 +277,40 @@ input {
   width: 100%;
 }
 
+.FilterBar {
+  background-color: rgb(255, 88, 4);
+  width: 40%;
+  padding: 21px 23px;
+  color: white;
+  position: fixed;
+  z-index: 2;
+  top: 4rem;
+  height: 100%;
+  margin-left: -10rem;
+}
+.FilterBar .key {
+  position: fixed;
+  top: 5rem;
+  left: 150px;
+  background-color: black;
+  padding: 7px;
+  border-radius: 0px 10px 10px 0px;
+  z-index: 3;
+  margin-left: -150px;
+}
+.FilterBar .items li {
+  display: flex;
+  align-items: center;
+  margin: 40px 0px;
+  font-size: 16px;
+}
+.FilterBar .items li span {
+  margin-left: 10px;
+}
+.FilterBar .items li :hover {
+  background-color: blue;
+}
+
 .product {
   background-color: rgb(255, 215, 147);
   width: 100%;

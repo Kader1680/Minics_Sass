@@ -42,3 +42,78 @@ sign.addEventListener('click', ()=>{
 
 // Onload to Sign up
 
+//  Initialize Swiper
+let swiper = new Swiper(".mySwiper", {
+    pagination: {
+        el: ".swiper-pagination",
+    },
+});
+
+// menu filter
+
+
+
+
+
+// Filter section
+
+// let one = document.getElementById('one')
+// let two = document.getElementById('two')
+// let three = document.getElementById('three')
+// // let non = document.querySelector('.non')
+// let item = document.querySelectorAll('.switetch li')
+// let boxs = document.querySelectorAll('.filterbar div')
+// let act = document.querySelector('.active')
+
+
+
+
+// item.forEach((li) => {
+//     li.addEventListener('click', ACTIVE)
+//     li.addEventListener('click', Manage)
+// });
+
+
+// function ACTIVE() {
+    
+//     item.forEach((li) => {
+//         li.classList.remove('active')
+//         this.classList.add('active')
+        
+//     });
+    
+// }
+
+// function Manage() {
+//     boxs.forEach(item => {
+//         item.style.display = "none"
+//     });
+//     document.querySelectorAll(this.dataset.cat).forEach((item) =>{
+//         item.style.display = "block"
+//     })
+// }
+
+
+// let boxs = document.querySelectorAll('.filterbar div')
+
+// one.onclick = function () {
+    
+//     boxs[1].style.display = "none"
+//     // boxs[1].style.visibility = 'hidden'
+//     boxs[6].style.display = "none"
+//     boxs[8].style.display = "none"
+// }
+// two.onclick = function () {
+    
+//     boxs[2].style.display = "none"
+//     boxs[4].style.display = "none"
+//     boxs[7].style.display = "none"
+// }
+// three.onclick = function () {
+    
+//     boxs[5].style.display = "none"
+//     boxs[3].style.display = "none"
+//     boxs[0].style.display = "none"
+// }
+
+// let op = Array.from(Image)

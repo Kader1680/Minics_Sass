@@ -10,6 +10,8 @@
     <title>Hazel</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./scss/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
 </head>
 <body>
 
@@ -40,9 +42,9 @@
         <div class="list">
             <ul>
                 <li><a href="">About</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">Why Use</a></li>
-                <li><a href="">Testimonial</a></li>
+                <li><a href="#product">Products</a></li>
+                <li><a href="#about">Why Use</a></li>
+                <li><a href="#banding">Testimonial</a></li>
                 
             </ul>
         </div>
@@ -61,21 +63,91 @@
 
 
 
-    <div class="publication" >
+    <div class="publication"  >
         <div class="b-left">
             <h2>Welcome to our shop</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quam velit saepe dolorem deserunt quo quidem ad optio.</p>
             <button>Read More</button>
         </div>
-        <img src="images/slider-img.png" alt="">
+        <!-- <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide_1">
+                    <img src="images/slider-img.png" alt="">
+                </div>
+                <div class="swiper-slide slide_2">
+                    <img src="images/p3.png" alt="">
+                </div>
+                <div class="swiper-slide slide_3">
+                    <img src="images/slider-img.png" alt="">
+                </div>
+                <div class="swiper-slide slide_4">
+                    <img src="images/p9.png" alt="">
+                </div>
+                <div class="swiper-slide slide_5">
+                    <img src="images/p2.png" alt="">
+                </div>
+            </div>
+            <!-- <div class="swiper-pagination"></div> -->
+        </div> 
+
+        
     </div>
+
+
+
+    <div class="FilterBar">
+        <div class="key">
+            <i class="fa-solid fa-gear"></i>
+        </div>
+        <div class="items">
+            <ul>
+                <li>
+                    <i class="fa-brands fa-playstation"></i><span>Playstation</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-camera"></i><span>Camera</span>
+                </li>
+                <li>
+                    <i class="fa-brands fa-phoenix-squadron"></i><span>Drone</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-gamepad"></i><span>GamePad</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!-- FilterBar -->
+    <!-- <div class="items">
+        <ul class="switetch">
+            <li data-cat=".one" class="active" id="one">One</li>
+            <li data-cat=".two" id="two">Two</li>
+            <li data-cat=".three" id="three">Three</li>
+        </ul>
+    </div>
+    <div class="filterbar">
+        
+        <div class="box one box-1"><p>A</p></div>
+        <div class="box one box-2"><p>B</p></div>
+        <div class="box one box-3"><p>C</p></div>
+        <div class="box two box-4"><p>D</p></div>
+        <div class="box two box-5"><p>E</p></div>
+        <div class="box two box-6"><p>F</p></div>
+        <div class="box three box-7"><p>G</p></div>
+        <div class="box three box-8"><p>H</p></div>
+        <div class="box three box-9"><p>I</p></div>
+    </div> -->
+
+
 
 
 
     <!-- Product -->
 
 
-    <div class="product">
+    <div class="product" id="product">
         <h2>Our Products</h2>
         <div class="row">
             <div class="content">
@@ -217,7 +289,7 @@
 
     <!-- About Us -->
 
-    <div class="about">
+    <div class="about" id="about">
         <div class="text">
             <h2>We Provide Best For You</h2>
             <p>Totam architecto rem beatae veniam, cum officiis adipisci soluta perspiciatis ipsa, expedita maiores quae accusantium. Animi veniam aperiam, necessitatibus mollitia ipsum id optio ipsa odio ab facilis sit labore officia! Repellat expedita, deserunt eum soluta rem culpa. Aut, necessitatibus cumque. Voluptas consequuntur vitae aperiam animi sint earum, ex unde cupiditate, molestias dolore quos quas possimus eveniet facilis magnam? Vero, dicta</p>
@@ -234,7 +306,7 @@
 
 
 
-    <div class="banding">
+    <div class="banding" id="banding">
         <h2>Why Choose Us</h2>
         <div class="row">
             <div class="box">
@@ -300,7 +372,7 @@
         </div>
     </footer>
 
-
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 </body>
