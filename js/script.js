@@ -21,13 +21,16 @@ window.onscroll = () =>{
 
 }
 
-// Top.addEventListener('click', ()=>{
-//     window.scrollTo(
-//         top = 0,
+Top.addEventListener('click', ()=>{
+    window.scrollTo({
+        top : 0,
+        behavior : "smooth"
+    }
         
         
-//     )
-// })
+        
+    )
+})
 
 // Blog Sign Up
 
@@ -38,16 +41,6 @@ sign.addEventListener('click', ()=>{
     sign.classList.toggle('block')
 })
 
-
-
-// Onload to Sign up
-
-//  Initialize Swiper
-// let swiper = new Swiper(".mySwiper", {
-//     pagination: {
-//         el: ".swiper-pagination",
-//     },
-// });
 
 // menu filter
 
