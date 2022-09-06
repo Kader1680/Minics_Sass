@@ -1,3 +1,4 @@
+
 let list_star = document.querySelectorAll('.star i')
 let stcolor = document.querySelector('.stcolor')
 
@@ -11,7 +12,6 @@ list_star.forEach(el => {
 
 let Top = document.querySelector('.top')
 let blk = document.querySelector('.blk')
-
 
 window.onscroll = () =>{
 
@@ -43,16 +43,30 @@ sign.addEventListener('click', ()=>{
 // Onload to Sign up
 
 //  Initialize Swiper
-let swiper = new Swiper(".mySwiper", {
-    pagination: {
-        el: ".swiper-pagination",
-    },
-});
+// let swiper = new Swiper(".mySwiper", {
+//     pagination: {
+//         el: ".swiper-pagination",
+//     },
+// });
 
 // menu filter
 
+let FilterBar = document.querySelector('.FilterBar')
+let key = document.querySelector('.key')
+let keyv = document.querySelector('.keyvis')
 
 
+key.addEventListener('click', ()=>{
+    // FilterBar.classList.toggle('.')
+    key.classList.toggle('keyvis')
+})
+
+// key.addEventListener('click', show)
+// function show() {
+//     // FilterBar.classList.toggle('filtervis')
+//     .classList.add('keyvis')
+//     // alert('rrrrrrrrr')
+// }
 
 
 // Filter section
@@ -117,3 +131,4 @@ let swiper = new Swiper(".mySwiper", {
 // }
 
 // let op = Array.from(Image)
+

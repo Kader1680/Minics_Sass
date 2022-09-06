@@ -45,7 +45,14 @@
 //     }
     
 // }
-
+.key.keyvis{
+    // margin-left: 23px;
+    background-color: red;
+}
+// .FilterBar.keyvis{
+//     margin-left: 23px;
+//     background-color: red;
+// }
 .FilterBar{
     background-color: $f-color;
     width: 40%;
@@ -55,20 +62,27 @@
     z-index: 2;
     top: 4rem;
     height: 100%;
-    margin-left: -10rem;
-    .key{
-        position: fixed;
-        top: 5rem;
-        left: 150px;
-        background-color: black;
-        padding: 7px;
-        border-radius: 0px 10px 10px 0px;
-        z-index: 3;
-        margin-left: -150px;
-        i{
+    margin-left: -11rem;
+    // &.filtervis {
+    //     margin-left: 0rem;
+    // }
+    
+.key{
+    position: fixed;
+    top: 5rem;
+    left: 150px;
+    background-color: black;
+    padding: 7px;
+    border-radius: 0px 10px 10px 0px;
+    z-index: 3;
+    margin-left: -150px;
+    
+    // &.keyvis{
+    //     margin-left: 23px;
+    // }
+}
 
-        }
-    }
+
     .items{
         li{
             display:flex;
