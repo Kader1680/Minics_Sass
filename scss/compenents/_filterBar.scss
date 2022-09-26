@@ -46,8 +46,10 @@
     
 // }
 .key.keyvis{
-    // margin-left: 23px;
-    background-color: red;
+    background-color: mediumvioletred;
+    margin-left: 23px;
+    transition: .5s;
+    
 }
 // .FilterBar.keyvis{
 //     margin-left: 23px;
@@ -63,6 +65,7 @@
     top: 4rem;
     height: 100%;
     margin-left: -11rem;
+    display: none;
     // &.filtervis {
     //     margin-left: 0rem;
     // }
