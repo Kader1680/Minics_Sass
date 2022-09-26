@@ -1,60 +1,14 @@
-// .items{
-    
-    
-//     width: 100%;
-//     .switetch{
-//         list-style: none;
-//         li{
-//             display: inline;
-//             border: 1px solid $f-color;
-//             color: $f-color;
-//             margin: 10px 20px;
-//             font-size: 25px;
-//         }
-//         .active{
-//             background-color: $f-color;
-//             color: white;
-//             transition: .8s;
-//             -webkit-transition: .8s;
-//             -moz-transition: .8s;
-//             -ms-transition: .8s;
-//             -o-transition: .8s;
-// }
-//     }
-// }
-// .filterbar{
-//     background-color: $s-color;
-//     width: 750px;
-//     height: 350px;
-//     margin: 10px auto;
-//     // display: grid;
-//     // grid-template-columns: 20% 20% 0%;
-    
-//     .box{
-//         width: $width;
-//         height: $width;
-//         background-color: $f-color;
-//         p{
-//             margin: auto;
-//             text-align: center;
-//             font-size:  26px;
-//         }
-//         .non{
-//             display: none;
-//         }
-//     }
-    
-// }
-.key.keyvis{
-    background-color: mediumvioletred;
-    margin-left: 23px;
-    transition: .5s;
-    
+
+@media(min-width:767px){
+    .FilterBar{
+        &.move{
+            width: 173px;
+        }
+    }
+
 }
-// .FilterBar.keyvis{
-//     margin-left: 23px;
-//     background-color: red;
-// }
+@media(min-width:991px){}
+@media(min-width:1199px){}
 .FilterBar{
     background-color: $f-color;
     width: 40%;
@@ -64,12 +18,13 @@
     z-index: 2;
     top: 4rem;
     height: 100%;
-    margin-left: -11rem;
-    display: none;
-    // &.filtervis {
-    //     margin-left: 0rem;
-    // }
-    
+    margin-left: -33rem;
+    transition: .5s;
+    &.move{
+        margin-left: 0rem;
+        width: 173px;
+    }
+
 .key{
     position: fixed;
     top: 5rem;
@@ -80,9 +35,9 @@
     z-index: 3;
     margin-left: -150px;
     
-    // &.keyvis{
-    //     margin-left: 23px;
-    // }
+    &.keyvis{
+        margin-left: 23px;
+    }
 }
 
 

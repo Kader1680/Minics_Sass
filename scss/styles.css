@@ -256,8 +256,14 @@ input {
   background-color: #fdf0f0;
   padding-top: 6rem;
 }
+.publication .backgoudvedio {
+  margin: -21px 0px;
+}
 .publication .b-left {
-  padding: 10px 20px;
+  padding: 72px 0px;
+  position: absolute;
+  top: 0;
+  left: 20px;
 }
 .publication .b-left h2 {
   margin: 10px 0px;
@@ -277,12 +283,37 @@ input {
   width: 100%;
 }
 
-.key.keyvis {
-  background-color: mediumvioletred;
-  margin-left: 23px;
-  transition: 0.5s;
+@media (max-width: 767px) {
+  .backgoudvedio video {
+    width: 100%;
+  }
 }
-
+@media (min-width: 768px) {
+  .backgoudvedio video {
+    width: 51rem;
+    height: 31rem;
+    margin: -20px -57px;
+  }
+}
+@media (min-width: 991px) {
+  video {
+    width: 1021px;
+    height: 36rem;
+    margin: -20px -57px;
+  }
+}
+@media (min-width: 991px) {
+  video {
+    width: 1359px;
+    height: 48rem;
+    margin: 3px -139px;
+  }
+}
+@media (min-width: 767px) {
+  .FilterBar.move {
+    width: 173px;
+  }
+}
 .FilterBar {
   background-color: rgb(255, 88, 4);
   width: 40%;
@@ -292,8 +323,12 @@ input {
   z-index: 2;
   top: 4rem;
   height: 100%;
-  margin-left: -11rem;
-  display: none;
+  margin-left: -33rem;
+  transition: 0.5s;
+}
+.FilterBar.move {
+  margin-left: 0rem;
+  width: 173px;
 }
 .FilterBar .key {
   position: fixed;
@@ -304,6 +339,9 @@ input {
   border-radius: 0px 10px 10px 0px;
   z-index: 3;
   margin-left: -150px;
+}
+.FilterBar .key.keyvis {
+  margin-left: 23px;
 }
 .FilterBar .items li {
   display: flex;

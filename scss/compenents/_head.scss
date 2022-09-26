@@ -1,9 +1,19 @@
 .publication{
     background-color: $t-color;
     padding-top: 6rem;
+
+    .backgoudvedio{
+        margin: -21px 0px;
+        video{
+            // width: 100%;
+        }
+    }
     
     .b-left{
-        padding: 10px 20px;
+        padding: 72px 0px;
+        position: absolute;
+        top: 0;
+        left: 20px;
         h2{
             margin: 10px 0px;
             font-size: $ft-size + 12;
@@ -22,5 +32,41 @@
     }
     img{
         width: 100%;
+    }
+}
+
+@media(max-width:767px){
+    .backgoudvedio{
+        video{
+            width: 100%;
+        }
+    }
+    
+    
+}
+
+@media(min-width:768px){
+    .backgoudvedio{
+        video{
+            width: 51rem;
+            height: 31rem;
+            margin: -20px -57px;
+        }
+    }
+    
+    
+}
+@media(min-width:991px){
+    video{
+        width: 1021px;
+        height: 36rem;
+        margin: -20px -57px;
+    }
+}
+@media(min-width:991px){
+    video{
+        width: 1359px;
+        height: 48rem;
+        margin: 3px -139px;
     }
 }

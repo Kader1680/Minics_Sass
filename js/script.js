@@ -45,13 +45,15 @@ sign.addEventListener('click', ()=>{
 // menu filter
 
 let FilterBar = document.querySelector('.FilterBar')
+let move = document.querySelector('.move')
 let key = document.querySelector('.key')
 let keyv = document.querySelector('.keyvis')
 
 
 key.addEventListener('click', ()=>{
-    // FilterBar.classList.toggle('.')
+    FilterBar.classList.toggle('move')
     key.classList.toggle('keyvis')
+
 })
 
 // key.addEventListener('click', show)
