@@ -38,10 +38,13 @@
                 margin: 23px 0px;
             }
             p{
-                color: green
+                // color: blue;
             }
-            .star{
-                
+            i{
+                color: $f-color;
+                &.stcolor{
+                    color: rgb(0, 150, 50);
+                }
             }
             .add{
                 margin: 0px -6px;

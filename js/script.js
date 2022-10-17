@@ -4,7 +4,8 @@ let stcolor = document.querySelector('.stcolor')
 
 list_star.forEach(el => {
     el.addEventListener('click', ()=>{
-        alert('fff')
+        el.classList.toggle("stcolor")
+        
     })
 });
 
