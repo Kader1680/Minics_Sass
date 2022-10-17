@@ -1,13 +1,5 @@
 
-let list_star = document.querySelectorAll('.star i')
-let stcolor = document.querySelector('.stcolor')
 
-list_star.forEach(el => {
-    el.addEventListener('click', ()=>{
-        el.classList.toggle("stcolor")
-        
-    })
-});
 
 // Scroll To The Top
 
@@ -42,6 +34,16 @@ sign.addEventListener('click', ()=>{
     sign.classList.toggle('block')
 })
 
+// add effect color star 
+let list_star = document.querySelectorAll('.star i')
+let stcolor = document.querySelector('.stcolor')
+
+list_star.forEach(el => {
+    el.addEventListener('click', ()=>{
+        el.classList.toggle("stcolor")
+        
+    })
+});
 
 // menu filter
 
@@ -56,6 +58,18 @@ key.addEventListener('click', ()=>{
     key.classList.toggle('keyvis')
 
 })
+
+
+
+// full screen of product
+let z = document.getElementById('content')
+z.addEventListener("click", ()=>{
+    console.log("fdfdfd")
+})
+
+
+
+
 
 // key.addEventListener('click', show)
 // function show() {

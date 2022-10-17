@@ -1,3 +1,25 @@
+@media(min-width:991px){
+    .publication{
+    
+        .backgoudvedio{
+            video{
+                width: 100%;
+            }
+        }
+    }
+        
+}
+@media(min-width:1199px){
+    .publication{
+    
+        .backgoudvedio{
+            video{
+                width: 100%;
+            }
+        }
+    }
+        
+}
 .publication{
     background-color: $t-color;
     padding-top: 6rem;

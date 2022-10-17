@@ -201,6 +201,12 @@ input {
   border-radius: 5px;
   margin: 6px 0px; }
 
+@media (min-width: 991px) {
+  .publication .backgoudvedio video {
+    width: 100%; } }
+@media (min-width: 1199px) {
+  .publication .backgoudvedio video {
+    width: 100%; } }
 .publication {
   background-color: #fdf0f0;
   padding-top: 6rem; }
