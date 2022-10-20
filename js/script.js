@@ -61,12 +61,30 @@ key.addEventListener('click', ()=>{
 
 
 
-// full screen of product
-let z = document.getElementById('content')
-z.addEventListener("click", ()=>{
-    console.log("fdfdfd")
-})
+// scrool into element page
 
+let about = document.querySelector('.about')
+let banding = document.querySelector('.banding')
+
+
+
+window.onscroll = () =>{
+    console.log(window.scrollY)
+
+    if (window.scrollY > 1955) {
+        about.classList.add('abtshow')
+    } else {
+        about.classList.remove('abtshow')
+        
+    }
+    if (window.scrollY > 3000) {
+        banding.classList.add("bdgBlock")
+    } else {
+        banding.classList.remove("bdgBlock")
+        
+    }
+
+}
 
 
 

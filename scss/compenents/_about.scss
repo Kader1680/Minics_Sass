@@ -1,6 +1,18 @@
 .about{
     background-color: $f-color;
-    // background-color: blue;
+    //background-color: blue;
+    //display: none;
+    transition: 5s;
+    -webkit-transition: 5s;
+    -moz-transition: 5s;
+    -ms-transition: 5s;
+    -o-transition: 5s;
+    &.abtshow{
+        // display: block;
+        background-color: rebeccapurple;
+        color: $t-color;
+        
+}
     .text{
         padding: 15px;
 
@@ -11,7 +23,6 @@
         p{
             font-size: $ft-size - 4;
             margin: 10px 0px;
-            color: black;
 
         }
         button{

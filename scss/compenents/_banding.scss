@@ -1,7 +1,23 @@
 .banding{
     text-align: center;
     margin: auto;
+    padding: 60px 0px;
     max-width: 600px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibilty 1s, opacity 1.5s linear;
+    -webkit-transition: visibilty 1s, opacity 1.5s linear;
+    -moz-transition: visibilty 1s, opacity 1.5s linear;
+    -ms-transition: visibilty 1s, opacity 1.5s linear;
+    -o-transition: visibilty 1s, opacity 1.5s linear;
+    &.bdgBlock{
+        // display: block;
+        background-color: rgb(84, 114, 205);
+        visibility: visible;
+        opacity: 1;
+}
+    
+    
     .row{
         
         .box{
