@@ -11,8 +11,7 @@
     -ms-transition: visibilty 1s, opacity 1.5s linear;
     -o-transition: visibilty 1s, opacity 1.5s linear;
     &.bdgBlock{
-        // display: block;
-        background-color: rgb(84, 114, 205);
+        
         visibility: visible;
         opacity: 1;
 }

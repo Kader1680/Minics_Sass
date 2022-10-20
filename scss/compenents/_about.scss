@@ -1,16 +1,13 @@
 .about{
     background-color: $f-color;
-    //background-color: blue;
-    //display: none;
-    transition: 5s;
-    -webkit-transition: 5s;
-    -moz-transition: 5s;
-    -ms-transition: 5s;
-    -o-transition: 5s;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
     &.abtshow{
-        // display: block;
-        background-color: rebeccapurple;
-        color: $t-color;
+        background-color: $t-color;
+        color: $f-color;
         
 }
     .text{

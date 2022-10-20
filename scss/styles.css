@@ -415,15 +415,15 @@ input {
 
 .about {
   background-color: rgb(255, 88, 4);
-  transition: 5s;
-  -webkit-transition: 5s;
-  -moz-transition: 5s;
-  -ms-transition: 5s;
-  -o-transition: 5s;
+  transition: 2s;
+  -webkit-transition: 2s;
+  -moz-transition: 2s;
+  -ms-transition: 2s;
+  -o-transition: 2s;
 }
 .about.abtshow {
-  background-color: rebeccapurple;
-  color: #fdf0f0;
+  background-color: #fdf0f0;
+  color: rgb(255, 88, 4);
 }
 .about .text {
   padding: 15px;
@@ -458,7 +458,6 @@ input {
   -o-transition: visibilty 1s, opacity 1.5s linear;
 }
 .banding.bdgBlock {
-  background-color: rgb(84, 114, 205);
   visibility: visible;
   opacity: 1;
 }
