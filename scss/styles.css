@@ -300,6 +300,12 @@ input {
     height: 575px;
   }
 }
+@media (min-width: 1199px) {
+  .backgoudvedio video {
+    width: 1287px;
+    height: 721px;
+  }
+}
 @media (min-width: 767px) {
   .FilterBar.move {
     width: 173px;
